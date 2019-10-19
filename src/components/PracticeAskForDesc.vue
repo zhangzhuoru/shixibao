@@ -2,9 +2,9 @@
   <div class="notice">
     <!-- 发送公告遮罩层开始 -->
     <el-dialog title="发通知" :visible.sync="dialogdescVisible">
-      <el-form :model="desc" >
+      <el-form :model="form" >
         <el-form-item label="通知题目" :label-width="formLabelWidth">
-          <input v-model="desc.title" disabled autocomplete="off" class="input"></input>
+          <input v-model="form.title" disabled autocomplete="off" class="input"></input>
         </el-form-item>
         <el-form-item label="通知内容" :label-width="formLabelWidth">
           <div class="textarea">
@@ -13,14 +13,14 @@
                 type="textarea"
                 :rows="2"
                 placeholder="请输入内容"
-                v-model="desc.about">
+                v-model="form.about">
               </el-input>
           </div>
             
         </el-form-item>
         <el-form-item label="时间" :label-width="formLabelWidth" align="left">
             <el-date-picker
-            v-model="desc.date"
+            v-model="form.date"
             type="date"
             disabled
             placeholder="选择日期">
@@ -37,7 +37,7 @@
   export default {
     data() {
       return {
-        dialogdescVisible:false,//是否开启遮罩层
+        dialogdescVisible:true,//是否开启遮罩层
         form: {
           name: '',
           desc: '',
@@ -48,12 +48,9 @@
     },
     // 组件可以接收的外部属性
      // 接受父组件的值
-    props: ['desc'],
+    // props: ['desc'],
     created() {
-      console.log('this.desc',this.desc)
-      this.form.name = this.desc.title
-      this.form.desc = this.desc.about
-      this.form.time = this.desc.date
+
     },
     methods: {
       show(){

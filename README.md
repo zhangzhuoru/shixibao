@@ -21,7 +21,7 @@
  var person = new Person();
 ```
 
-![1571131060326](C:\Users\xu\Desktop\前端总结\img\1571131060326.png)
+![1571131060326](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1571131060326.png)
 
 # [vue-router路由懒加载（解决vue项目首次加载慢）](https://www.cnblogs.com/lijuntao/p/7777581.html)
 
@@ -57,7 +57,7 @@ Controller：控制器(大管家角色)，监听模型数据的改变和控制�
 
 他们工作和关系看起来是如此清晰，是一种非常好的设计思想，是的，首先声明MVC是一个非常好的架构思想，你必须要掌握。
 
-![1571120537958](C:\Users\xu\Desktop\前端总结\img\1571120537958.png)
+![1571120537958](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1571120537958.png)
 
 # MVVM简要
 
@@ -80,7 +80,7 @@ $router对象是全局路由的实例，是router构造方法的实例。
 1. 事件捕获阶段（红色箭头顺序）
 2. 事件冒泡阶段（绿色箭头顺序）
 
-![1571123848813](C:\Users\xu\Desktop\前端总结\img\1571123848813.png)
+![1571123848813](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1571123848813.png)
 
 在事件捕获阶段，事件源依次从defaultView（可以理解为整个页面）一直传播到具体的目标（target）。从广泛到具体。
 
@@ -284,7 +284,7 @@ methods: {
 
 ####  https://github.com/TalkingData/iview-weapp 下载，完后将dist文件夹中的所有文件（也可以只选择需要的组件）导入到mpvue项目的static文件夹中。
 
-![1569577188706](C:\Users\xu\Desktop\前端总结\img\1569578945093.png)
+![1569577188706](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569578945093.png)
 
 #### **把dist文件夹内东西全部copy到你项目中的static的文件下的iview文件夹**
 
@@ -292,9 +292,9 @@ methods: {
 
 #### 再到需要使用组件的页面中配置。
 
-![1569577414754](C:\Users\xu\Desktop\前端总结\img\1569577414754.png)
+![1569577414754](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569577414754.png)
 
-![1569579179598](C:\Users\xu\Desktop\前端总结\img\1569579179598.png)
+![1569579179598](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569579179598.png)
 
 main.json
 
@@ -304,11 +304,11 @@ main.json
 
   }
 
-![1569577580028](C:\Users\xu\Desktop\前端总结\img\1569631828922.png)
+![1569577580028](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569631828922.png)
 
 #### 4.在具体需要用到的页面就能用iview weapp提供的标签组件了
 
-![1569632463944](C:\Users\xu\Desktop\前端总结\img\1569632463944.png)
+![1569632463944](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569632463944.png)
 
 # 巧用es6 new set 数组去重 map讲解
 
@@ -356,47 +356,47 @@ http://yuilibrary.com/license/
 html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
 ```
 
-![1569653324057](C:\Users\xu\Desktop\前端总结\img\1569653324057.png)
+![1569653324057](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569653324057.png)
 
-![1569653472829](C:\Users\xu\Desktop\前端总结\img\1569653472829.png)
+![1569653472829](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569653472829.png)
 
-![1569653526653](C:\Users\xu\Desktop\前端总结\img\1569653526653.png)
+![1569653526653](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569653526653.png)
 
-![1569653576412](C:\Users\xu\Desktop\前端总结\img\1569653576412.png)
+![1569653576412](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569653576412.png)
 
-![1569653678785](C:\Users\xu\Desktop\前端总结\img\1569653678785.png)
+![1569653678785](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569653678785.png)
 
 # 字符集
 
-![1569654330163](C:\Users\xu\Desktop\前端总结\img\1569654330163.png)
+![1569654330163](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569654330163.png)
 
-![1569654391386](C:\Users\xu\Desktop\前端总结\img\1569654391386.png)
+![1569654391386](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569654391386.png)
 
-![1569654572230](C:\Users\xu\Desktop\前端总结\img\1569654797863.png)
+![1569654572230](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569654797863.png)
 
 # 小图标制作：http://bitbug.net/
 
-![1569655080734](C:\Users\xu\Desktop\前端总结\img\1569655080734.png)
+![1569655080734](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569655080734.png)
 
-![1569655134588](C:\Users\xu\Desktop\前端总结\img\1569655134588.png)
+![1569655134588](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569655134588.png)
 
 # 顶部栏header
 
-![1569655590516](C:\Users\xu\Desktop\前端总结\img\1569655590516.png)
+![1569655590516](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569655590516.png)
 
 # logo
 
-![1569655860666](C:\Users\xu\Desktop\前端总结\img\1569655860666.png)
+![1569655860666](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569655860666.png)
 
-![1569656455733](C:\Users\xu\Desktop\前端总结\img\1569656455733.png)
+![1569656455733](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569656455733.png)
 
-![1569656055992](C:\Users\xu\Desktop\前端总结\img\1569656055992.png)
+![1569656055992](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569656055992.png)
 
-![1569656724822](C:\Users\xu\Desktop\前端总结\img\1569656724822.png)
+![1569656724822](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569656724822.png)
 
-![1569656690281](C:\Users\xu\Desktop\前端总结\img\1569656791607.png)
+![1569656690281](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569656791607.png)
 
-![1569658109825](C:\Users\xu\Desktop\前端总结\img\1569658109825.png)
+![1569658109825](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569658109825.png)
 
 # 样式的继承
 
@@ -404,7 +404,7 @@ html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre
 
 # 倒三角
 
-![1569658624616](C:\Users\xu\Desktop\前端总结\img\1569659032861.png)
+![1569658624616](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569659032861.png)
 
 # 图片自适应
 
@@ -421,14 +421,14 @@ bg大小自适应
   }
 ```
 
-![1569660734020](C:\Users\xu\Desktop\前端总结\img\1569660734020.png)
+![1569660734020](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569660734020.png)
 
-![1569660565901](C:\Users\xu\Desktop\前端总结\img\1569660565901.png)
+![1569660565901](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1569660565901.png)
 
 # **问题重新:在main.js使用console.log()会报错**
 
-![在这里插入图片描述](C:\Users\xu\Desktop\前端总结\img\20190701165344696.png)
-**这个错误是Vuejs - 使用ESLint检查代码质量是进行提示的,所以修改成window.console.log()就能避免这个报错**![在这里插入图片描述](C:\Users\xu\Desktop\前端总结\img\2019070116551969.png)
+![在这里插入图片描述](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/20190701165344696.png)
+**这个错误是Vuejs - 使用ESLint检查代码质量是进行提示的,所以修改成window.console.log()就能避免这个报错**![在这里插入图片描述](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/2019070116551969.png)
 
 # 解决点击 router-link 会造成报错的问题
 
@@ -502,15 +502,15 @@ Router.prototype.push = function push(location) {
 
 新建项目
 
-![1570608409515](C:\Users\xu\Desktop\前端总结\img\1570608409515.png)
+![1570608409515](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570608409515.png)
 
 选好图标加入项目后下载
 
-![1570608621684](C:\Users\xu\Desktop\前端总结\img\1570608621684.png)
+![1570608621684](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570608621684.png)
 
 解压复制到vue中assets新建icon文件下
 
-![1570608468984](C:\Users\xu\Desktop\前端总结\img\1570608468984.png)
+![1570608468984](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570608468984.png)
 
 修改iconfont.css的代码,添加如下代码
 
@@ -525,7 +525,7 @@ Router.prototype.push = function push(location) {
  }
 ```
 
-![1570608808651](C:\Users\xu\Desktop\前端总结\img\1570608808651.png)
+![1570608808651](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570608808651.png)
 
 在main.js引入图标
 
@@ -534,15 +534,15 @@ Router.prototype.push = function push(location) {
 import './assets/icon/iconfont.css';
 ```
 
-![1570608932297](C:\Users\xu\Desktop\前端总结\img\1570608932297.png)
+![1570608932297](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570608932297.png)
 
 再复制名称，就跟element icon一样用
 
-![1570609062747](C:\Users\xu\Desktop\前端总结\img\1570609062747.png)
+![1570609062747](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570609062747.png)
 
 效果如下
 
-![1570609112632](C:\Users\xu\Desktop\前端总结\img\1570609112632.png)
+![1570609112632](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570609112632.png)
 
 # 修改element样式
 
@@ -552,13 +552,13 @@ import './assets/icon/iconfont.css';
 
 # 循环遍历map的使用
 
-![1570703027696](C:\Users\xu\Desktop\前端总结\img\1570703027696.png)
+![1570703027696](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570703027696.png)
 
 map+箭头函数的简写
 
-![1570703073796](C:\Users\xu\Desktop\前端总结\img\1570703095983.png)
+![1570703073796](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570703095983.png)
 
-![1570703171557](C:\Users\xu\Desktop\前端总结\img\1570703171557.png)
+![1570703171557](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570703171557.png)
 
 # es6 快速删除数组指定元素
 
@@ -620,7 +620,7 @@ data() {
 
 # 解决elementUI表格渲染数据不及时闪烁用v-if
 
-![1570762735550](C:\Users\xu\Desktop\前端总结\img\1570762735550.png)
+![1570762735550](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570762735550.png)
 
 # 在Vue中使用echarts
 
@@ -632,15 +632,15 @@ npm install echarts -S
 
 ### 2以组件的形式用echarts
 
-![1570850574193](C:\Users\xu\Desktop\前端总结\img\1570850574193.png)
+![1570850574193](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570850574193.png)
 
 在components文件夹中引入柱状图Bar.vue，再在引用的页面三步骤引入
 
-![1570850642897](C:\Users\xu\Desktop\前端总结\img\1570850642897.png)
+![1570850642897](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570850642897.png)
 
 ![1570850671146](C:\Users\xu\AppData\Local\Temp\1570850671146.png)
 
-![1570850710839](C:\Users\xu\Desktop\前端总结\img\1570850817251.png)
+![1570850710839](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570850817251.png)
 
 例子D:\offer\day4\shixibao\src\components的Bar.vue（柱状图）
 
@@ -707,7 +707,7 @@ mounted(){
 
 ### 1.tooltip: {}, 鼠标：hover出现提示
 
-![1570851278346](C:\Users\xu\Desktop\前端总结\img\1570851278346.png)
+![1570851278346](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570851278346.png)
 
 ### 2.axisLine: {  lineStyle: {  color: "#fff"}  }, x、y轴颜色
 
@@ -717,13 +717,13 @@ mounted(){
 
 ### 4.设置柱条(背景色为深蓝色)样式 itemStyle: {color: "deepskyblue"  },
 
-![1570851163829](C:\Users\xu\Desktop\前端总结\img\1570852300678.png)
+![1570851163829](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570852300678.png)
 
 ### 5.封装成组件如何自动响应窗口重新渲染子传父，父调子
 
-![1570852589228](C:\Users\xu\Desktop\前端总结\img\1570852589228.png)
+![1570852589228](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570852589228.png)
 
-![1570852753091](C:\Users\xu\Desktop\前端总结\img\1570852753091.png)
+![1570852753091](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570852753091.png)
 
 # 饼状图的使用
 
@@ -731,15 +731,15 @@ mounted(){
 
 圆环
 
-![1570861944038](C:\Users\xu\Desktop\前端总结\img\1570861944038.png)
+![1570861944038](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570861944038.png)
 
-![1570861979749](C:\Users\xu\Desktop\前端总结\img\1570861979749.png)
+![1570861979749](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570861979749.png)
 
 圆
 
-![1570862141502](C:\Users\xu\Desktop\前端总结\img\1570862141502.png)
+![1570862141502](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570862141502.png)
 
-![1570862058761](C:\Users\xu\Desktop\前端总结\img\1570862058761.png)
+![1570862058761](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1570862058761.png)
 
 # vue实现省市区三级联动
 
@@ -782,7 +782,7 @@ methods: {
     },
 ```
 
-![1571295996620](C:\Users\xu\Desktop\前端总结\img\1571295996620.png)
+![1571295996620](https://github.com/zhangzhuoru/shixibao/blob/master/前端总结/img/1571295996620.png)
 
 # [Vue上传文件：ElementUI中的upload实现](https://www.cnblogs.com/goloving/p/8967865.html)
 

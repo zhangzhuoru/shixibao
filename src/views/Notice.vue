@@ -100,7 +100,7 @@
     <!-- 发送公告详情遮罩层开始
       给子组件注册引用信息 父组件通过$refs拿到的是子组件的组件实例对象
     -->
-    <NoticeDesc ref='noticedesc'></NoticeDesc>
+    <NoticeDesc ref='noticedesc' :desc='desc'></NoticeDesc>
     <!-- 发送公告详情遮罩层结束 -->
   </div>
 </template>
@@ -111,6 +111,7 @@
       return {
         currentPage:1,   //默认页码为1
         pagesize:2,  //默认一页显示10条
+        desc:'',//遮罩层保单信息,
         tableData: [{
           title:'中秋放假通知',
           about:'放3天',
@@ -153,8 +154,9 @@
     },
     methods: {
       seedesc(index, row) {
+        this.desc=row
         this.$refs.noticedesc.show()//显示
-        console.log(index, row);
+        console.log(index, row,this.desc);
       },
       handleDelete(index, row) {
         console.log(index, row);

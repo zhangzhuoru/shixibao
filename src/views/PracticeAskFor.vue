@@ -101,10 +101,11 @@
         </div>
       </el-tab-pane>
     </el-tabs>
-
+    <PracticeAskForDesc></PracticeAskForDesc>
   </div>
 </template>
 <script>
+  import PracticeAskForDesc from "../components/PracticeAskForDesc";
   export default {
     data() {
       return {
@@ -266,6 +267,10 @@
           this.activeName = e.name
       }
 
+    },
+    // 注册组件
+    components: {
+      PracticeAskForDesc,
     },
     watch: {
 
