@@ -1,33 +1,43 @@
 <template>
   <div class="notice">
     <!-- 发送公告遮罩层开始 -->
-    <el-dialog title="发通知" :visible.sync="dialogdescVisible">
-      <el-form :model="form" >
-        <el-form-item label="通知题目" :label-width="formLabelWidth">
-          <input v-model="form.title" disabled autocomplete="off" class="input"></input>
+    <el-dialog title="实习申请" :visible.sync="dialogdescVisible">
+      <el-form :model="desc" >
+        <el-form-item label="申请人" :label-width="formLabelWidth">
+            <div class="textarea">
+                {{desc.name}}
+            </div>
         </el-form-item>
-        <el-form-item label="通知内容" :label-width="formLabelWidth">
+        <el-form-item label="学号" :label-width="formLabelWidth">
           <div class="textarea">
-              <el-input
-                disabled
-                type="textarea"
-                :rows="2"
-                placeholder="请输入内容"
-                v-model="form.about">
-              </el-input>
+              {{desc.id}}
           </div>
-            
         </el-form-item>
-        <el-form-item label="时间" :label-width="formLabelWidth" align="left">
-            <el-date-picker
-            v-model="form.date"
-            type="date"
-            disabled
-            placeholder="选择日期">
-          </el-date-picker>
+        <el-form-item label="班级" :label-width="formLabelWidth">
+          <div class="textarea">
+              {{desc.department}}系 {{desc.major}}专业 {{desc.class}}
+          </div>
+        </el-form-item>
+        <el-form-item label="实习单位" :label-width="formLabelWidth">
+          <div class="textarea">
+              {{desc.address}}
+          </div>
+        </el-form-item>
+        <el-form-item label="实习岗位" :label-width="formLabelWidth">
+          <div class="textarea">
+              {{desc.job}}
+          </div>
+        </el-form-item>
+        <el-form-item label="申请时间" :label-width="formLabelWidth" align="left">
+          <div class="textarea">
+            {{desc.date}}
+          </div>  
         </el-form-item>
       </el-form>
-      
+      <div slot="footer" class="dialog-footer">
+        <el-button type="danger" @click="dialogdescVisible = false">不通过</el-button>
+        <el-button  type="success" @click="dialogdescVisible = false">通过</el-button>
+      </div>
     </el-dialog>
     <!-- 发送公告遮罩层结束 -->
     <h1 v-if='dialogdescVisible'>111111</h1>
@@ -37,7 +47,7 @@
   export default {
     data() {
       return {
-        dialogdescVisible:true,//是否开启遮罩层
+        dialogdescVisible:false,//是否开启遮罩层
         form: {
           name: '',
           desc: '',
@@ -48,14 +58,12 @@
     },
     // 组件可以接收的外部属性
      // 接受父组件的值
-    // props: ['desc'],
+    props: ['desc'],
     created() {
-
+      
     },
     methods: {
       show(){
-        console.log(this.dialogdescVisible,this.desc)
-        
         this.dialogdescVisible = !this.dialogdescVisible
       }
     },
@@ -73,7 +81,7 @@
 
   .input {
     display: block;
-    width: 450px;
+    width: 100%;
     background-color: #FFF;
     border: none;
     border-bottom: 1px solid #DCDFE6;
@@ -90,6 +98,10 @@
     border-bottom: 1px solid #409EFF;
   }
   .textarea{
-    width: 450px;
+    padding: 0 15px;
+    text-align: left;
+    width: 100%;
+    border-bottom: 1px solid #DCDFE6;
+    box-sizing: border-box;
   }
 </style>

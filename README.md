@@ -991,3 +991,69 @@ this.$parent.parentMethod() //调用父组件的方法
 this.$emit('noticeParent', params) //注册noticeParent事件，对外广播，params是需要传输的参数
 ```
 
+# vue全局引入js
+
+1:创建公共JS(utils.js)  src/common/utils.js
+
+```js
+export default {
+    text(){
+        console.log("测试，测试！！！")
+    }
+}
+```
+
+2:在main.js中引入公共js并注册
+
+```js
+import Utils from './common/utils.js';
+Vue.prototype.utils=Utils;
+```
+
+3:调用公共方法
+
+```js
+  this.utils.text();
+```
+
+
+
+**1. js为ES5的写法时，如下（自定义的my.js）:**
+
+```js
+function fun(){
+    console.log('hello');     
+}
+```
+
+　Vue中的全局引入方式为，在index.html中通过如下方式引入即
+
+```js
+<script src="src/models/my.js"></script>
+```
+
+可：
+
+**2. js为 ES6 模块化写法时，即 import，export形式，如下：**
+
+```js
+var fun=function(){
+    console.log('hello');
+}
+export default fun;
+```
+
+　Vue中全局引入的方式为，在main.js中添加如下代码：
+
+```js
+import fun from 'src/models/my.js';
+Vue.prototype.$xx=fun;  //其中$xx为新命的名。
+```
+
+　使用方法为，在要调用的地方使用如下代码调用：
+
+```js
+var aa=this.$xx;
+```
+
+　　**注意，模块化引入方式时，要引入的 js export的值只可为一个，若多余一个如 export {var1,var2,...} 则不可使用这种方式 （经验证无效）。**

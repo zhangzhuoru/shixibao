@@ -51,7 +51,7 @@
             </el-table-column>
             <el-table-column width="260" align="center" label="操作">
               <template slot-scope="scope" class="between">
-                <el-button type="primary" size="mini">查看详情</el-button>
+                <el-button type="primary" size="mini" @click = 'showdesc(scope.$index, scope.row)'>查看详情</el-button>
                 <el-button size="mini" type="success" @click="handleEdit(scope.$index, scope.row)">通过</el-button>
                 <el-button size="mini" type="danger" @click="handleDelete(scope.$index, scope.row)">不通过</el-button>
               </template>
@@ -89,7 +89,7 @@
             </el-table-column>
             <el-table-column width="260" align="center" label="操作">
               <template slot-scope="scope" class="between">
-                <el-button type="primary" size="mini">查看详情</el-button>
+                <el-button type="primary" size="mini" >查看详情</el-button>
               </template>
             </el-table-column>
           </el-table>
@@ -101,7 +101,7 @@
         </div>
       </el-tab-pane>
     </el-tabs>
-    <PracticeAskForDesc></PracticeAskForDesc>
+    <PracticeAskForDesc ref='practiceaskfordesc' :desc='desc'></PracticeAskForDesc>
   </div>
 </template>
 <script>
@@ -225,14 +225,25 @@
             state: '未审批'
           }
         ],
-        search: ''
+        search: '',
+        desc:''
       }
     },
     created() {
       this.activeName = this.systems[0].id;
     },
     methods: {
+      showdesc(index,row){
+        this.$refs.practiceaskfordesc.show()//显示
+        this.desc=row
+      },
       handleEdit(index, row) {
+        var a = 10;
+        (function(window){
+            console.log(a);
+            var a = 100;
+        })(window);
+        console.log(a)
         console.log(index, row);
       },
       handleDelete(index, row) {
